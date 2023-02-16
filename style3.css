@@ -1,0 +1,222 @@
+
+
+body{
+		background-color: #C0C0C0;
+}
+
+.content{
+	padding: 90px 0px 90px 0px;
+	max-width: 850px;
+	margin: 0px auto;
+	background-color: #ffffff;
+	padding-left: 50px;
+}
+
+.block1{
+	align-items: center;
+	font-family: 'Playfair Display SC', serif;
+	display: flex;
+	padding: 0px 0px 30px 0px;
+}
+.block1_image{
+	margin: 0px 30px 0px 30px;
+}
+.block1_name{
+	font-size: 50px;
+	line-height: 51px;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #333333;
+}
+.block2{
+	font-family: Lato;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #4e4e4e;
+	margin: 0px 0px 25px 0px;
+}
+.block3{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Playfair SC Bold';
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #333333;
+}
+.list1{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 35px;
+	font-weight: 700;
+	color: #4f4f4f;
+	padding: 0px 0px 0px 10px;
+	list-style: none;
+}
+.email{
+	padding-left: 28px;
+	background: url(icons/email.png) no-repeat;
+	background-position: left center;
+}
+.phone{
+	padding-left: 28px;
+	background: url(icons/telephone.png) no-repeat;
+	background-position: left center;
+}
+.date{
+	padding-left: 28px;
+	background: url(icons/calendar.png) no-repeat;
+	background-position: left center;
+}
+.block4_achievements{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Playfair SC Bold';
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #333333;
+}
+.list2{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #4f4f4f;
+}
+.block5{
+		margin: 20px 0px 0px 0px;
+		font-family: 'Playfair SC Bold';
+		font-size: 35px;
+		line-height: 41px;
+		font-weight: 400;
+		letter-spacing: -0.04em;
+		color: #333333;
+}
+.date1{
+	font-family: Lato;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #848484;
+}
+.school{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #4f4f4f;
+}
+.date2{
+	font-family: Lato;
+	font-size: 15px;
+	line-height: 25px;
+	font-weight: 400;
+	color: #848484;
+}
+.university{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 25px;
+	font-weight: 700;
+	color: #4f4f4f;	
+}
+.block6{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Playfair SC Bold';
+	font-size: 35px;
+	line-height: 41px;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #333333;
+}
+.list3{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #4f4f4f;
+	list-style: none;
+}
+.music{
+	padding-left: 32px;
+	background: url(icons/music.png) no-repeat;
+	background-position: left center;
+}
+.ball{
+	padding-left: 32px;
+	background: url(icons/ball.png) no-repeat;
+	background-position: left center;
+}
+.prog{
+	padding-left: 32px;
+	background: url(icons/monitor.png) no-repeat;
+	background-position: left center;
+}
+.book{
+	padding-left: 32px;
+	background: url(icons/book.png) no-repeat;
+	background-position: left center;
+}
+
+.block7{
+	margin: 20px 0px 0px 0px;
+	font-family: 'Playfair SC Bold';
+	font-size: 30px;
+	line-height: 41px;
+	font-weight: 400;
+	letter-spacing: -0.04em;
+	color: #333333;	
+}
+.list4{
+	font-family: Lato;
+	font-size: 20px;
+	line-height: 30px;
+	font-weight: 700;
+	color: #4f4f4f;	
+	list-style: none;
+}
+.insta{
+	padding-left: 32px;
+	background: url(icons/instagram.png) no-repeat;
+	background-position: left center;
+}
+.github{
+	padding-left: 32px;
+	background: url(icons/github.png) no-repeat;
+	background-position: left center;
+}
+.js{
+	font-family: Lato;
+	font-size: 20px;
+	color: #4f4f4f;	
+
+}
+@media screen and (max-width: 1024px) and (min-width: 770px) {
+ 	.block1{
+ 		width:100px;
+ 	}
+ 	.list2{
+ 		width: 70%;
+ 	}
+ 	.block5{
+ 		30%
+ 	}
+}
+
+
+@media screen and (max-width: 897px) and (min-width: 413px) {
+	 .block1{
+ 		width:200px;
+ 	}
+ 	.list2{
+ 		width: 70%;
+ 	}
+ 	.block5{
+ 		30%
+ 	}
+}
+
+
+
