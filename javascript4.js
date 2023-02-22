@@ -42,11 +42,6 @@ let favouriteFilms = [
 	}
 	re(favouriteFilms); 
 
-if(confirm("Could you please remove me from the blacklist?")){
-	alert("Thank you teacher!");
-}else{
-	alert(":(")
-}
 
 	
 
